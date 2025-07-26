@@ -1,3 +1,35 @@
+# Note taking app
+
+## Project Structure
+app: Main application code, organized with layouts and tabs for navigation.
+assets: Contains fonts and images used in the app.
+components: Reusable UI components (e.g., Collapsible, ThemedText, ParallaxScrollView, etc.).
+constants: App-wide constants (e.g., Colors).
+hooks: Custom React hooks for theming and color schemes.
+scripts: Utility scripts (e.g., reset-project.js).
+Config files: package.json, tsconfig.json, app.json, etc.
+
+## Package.json
+
+| Package(s)                                                                                                   | Purpose                                                                                   |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| expo, expo-router                                                                                            | Framework for building React Native apps, with file-based routing                         |
+| react, react-dom, react-native, react-native-web                                                             | Core React and React Native libraries for cross-platform development                      |
+| @react-navigation/native, @react-navigation/bottom-tabs, @react-navigation/stack                             | Navigation solutions for React Native apps                                                |
+| @expo/vector-icons                                                                                           | Icon library                                                                              |
+| expo-blur, expo-haptics, expo-status-bar, expo-splash-screen, expo-system-ui, expo-web-browser, expo-symbols | Expo modules for UI effects, haptics, splash screens, system UI, web browser, and symbols |
+| expo-font                                                                                                    | Font loading                                                                              |
+| expo-constants                                                                                               | Access to app constants                                                                   |
+| @react-native-async-storage/async-storage                                                                    | Persistent key-value storage                                                              |
+| react-native-gesture-handler                                                                                 | Gesture handling                                                                          |
+| react-native-reanimated                                                                                      | Advanced animations                                                                       |
+| react-native-safe-area-context                                                                               | Handling safe areas on devices                                                            |
+| react-native-screens                                                                                         | Native navigation screens                                                                 |
+| react-native-webview                                                                                         | Embedding web content                                                                     |
+| metro                                                                                                        | JavaScript bundler for React Native                                                       |
+| jest, jest-expo, @types/jest, react-test-renderer, @types/react-test-renderer                                | Testing tools                                                                             |
+| typescript, @types/react                                                                                     |
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
