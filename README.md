@@ -1,5 +1,39 @@
 # Note taking app
 
+> [!NOTE]
+> 1. This is a work in progress. 
+> 2. The contents of this readme, the design and implementation may change over time.
+> 3. I am learning - about everything, so the code, readme, designs, and anything else in this repo may not be perfect.
+> 4. If you have any suggestions, please feel free to open an issue or a pull request.
+
+## Motivation
+
+I use GoodNotes 5 on my iPad to take notes. But when GoodNotes 6 was released, it was announced that the "pay for lifetime" option was removed, and GoodNotes 5 would be removed from the App Store. The decision was ultimately reversed, but it made me realize that I should not rely on proprietary software.
+
+I want to create a note-taking app that is open source, cross-platform, and has a good user interface.
+
+> Free software is a matter of liberty, not price 
+> 
+> "Free" as in "free speech", not as in "free beer".
+> 
+> -- https://www.fsf.org/about/
+
+
+## Principles
+
+These are the things I want to keep in mind while designing the app:
+- Open Source: The app should be open source, so that anyone can contribute to it and use it for free.
+This also means that that people should be able to modify the code, distribute it, and run it on their own devices.
+- Cross-Platform: The app should be available on all platforms, including iOS, Android, and the web.
+- Borrowed from the Art of Unix Programming: The app should be simple, elegant, and easy to use. It should not have any unnecessary features or complexity.
+  - Rule of Modularity: Write simple parts connected by clean interfaces.
+  - Rule of Composition: Design programs to be connected to other programs.
+  - Rule of Parsimony: Write a big program only when it is clear by demonstration that nothing else will do.
+
+--- 
+The technical stuff
+--- 
+
 ## Project Structure
 app: Main application code, organized with layouts and tabs for navigation.
 assets: Contains fonts and images used in the app.
