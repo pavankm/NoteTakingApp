@@ -1,5 +1,5 @@
 ---
-applyTo: "**"
+applyTo: '**'
 ---
 
 # NoteTakingApp – Design Principles & Coding Guidelines
