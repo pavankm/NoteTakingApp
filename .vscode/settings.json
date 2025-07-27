@@ -30,5 +30,6 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "codeQL.githubDatabase.download": "never"
 }
