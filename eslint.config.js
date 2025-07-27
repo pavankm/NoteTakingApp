@@ -24,6 +24,7 @@ module.exports = [
       '*.config.ts',
       'babel.config.js',
       'metro.config.js',
+      'expo-env.d.ts',
     ],
   },
 
@@ -134,6 +135,9 @@ module.exports = [
         typescript: {
           alwaysTryTypes: true,
           project: './tsconfig.json',
+        },
+        node: {
+          extensions: ['.js', '.jsx', '.ts', '.tsx'],
         },
       },
     },

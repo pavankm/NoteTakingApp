@@ -1,5 +1,7 @@
-import { Stack } from "expo-router";
+import { Stack } from 'expo-router';
 
-export default function RootLayout() {
+import type { ReactElement } from 'react';
+
+export default function RootLayout(): ReactElement {
   return <Stack />;
 }
